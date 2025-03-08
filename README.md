@@ -20,8 +20,9 @@
 
 ## Features📝
 
-<h3 align="center">Real time display 🕑</h2>
-<img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
+<h3 align="center">Real time display 🕑
+    <img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
+</h3>
 
 * Real-time display
 * Seamless integration with OBS
@@ -30,7 +31,7 @@
 * Works with all classes (there may be bugs with the healer class ).
 * Free and Open source ~~( pls help me, i suck at coding 🙃)~~
 
-## Getting Started 🔥
+## Getting Started🔥
 ### Requirements 
 * ⚠️The latest version of [Node js](https://nodejs.org/en/download/current). **Download and install it before continuing**.
 * [OBS](https://obsproject.com/) or any streaming software that supports browser integration.
