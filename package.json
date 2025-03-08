@@ -1,0 +1,18 @@
+{
+  "name": "AOO",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "Cat secret service 😎",
+  "license": "WhoReadThis?",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
