@@ -30,7 +30,6 @@
 * Free and Open source ~~( pls help me, i suck at coding 🙃)~~
 
 ### Compatibility
-> ***⚠️WARNING⚠️*** <br>for the moment, the application only works for the English version
 
 <table align="center"><thead>
   <tr>
@@ -56,6 +55,8 @@
   </tr>
 </tbody>
 </table>
+
+<p align="center">⚠️for the moment, the application only works ⚠️<br> for the English version</p>
 
 ## Getting Started🔥
 ### Requirements 
