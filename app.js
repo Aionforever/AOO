@@ -10,7 +10,7 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 console.clear()
 console.log("App started ✅ ( Don't close this window )")
 console.log("You can add this URL to OBS 🚀 -> http://localhost:8080/")
-console.log("Check the Github page if you have any problem 😎 - You can use the start.bat file to restart the application")
+console.log("I strongly recommend reading the README on Github 😎 - You can use the start.bat file to restart the application")
 
 const app = express();
 const server = http.createServer(app);
