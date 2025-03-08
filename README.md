@@ -76,7 +76,6 @@ You can customize at your need with the `custom CSS` tab.
 > Click on `Refresh cache of current page` if you don't see any changes.
 
 ## Troubleshooting⚠️
-
 ### Known issues 🚧
 - Skill showing several times ( e.g. Erosion, Dispell )
 - Heal/Buff skills not appearing on the timeline ( If the target is full life skills will not appear )
