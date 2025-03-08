@@ -23,6 +23,7 @@
 ### Real time display 🕑
 <img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
 
+* No Memory Scanning/Reading/Writing, only use the chat.log
 * Seamless integration with OBS
 * Fully customizable via CSS
 * Lightweight and compatible with all computers
