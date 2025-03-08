@@ -20,25 +20,42 @@
 
 ## Features📝
 
-<h3 align="start">Real time display 🕑</h3>
+### Real time display 🕑
 <img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
 
-* Real-time display
 * Seamless integration with OBS
 * Fully customizable via CSS
 * Lightweight and compatible with all computers
 * Works with all classes (there may be bugs with the healer class ).
 * Free and Open source ~~( pls help me, i suck at coding 🙃)~~
 
-**Server**|**Tested**|**Works**
-:-----:|:-----:|:-----:
-EuroAion 4.6|✅|✅
-Aion Classic|❌|⌛
-Aion Destiny|❌|⌛
-
+### Compatibility
 > ***⚠️WARNING⚠️*** <br>for the moment, the application only works for the English version
 
-
+<table align="center"><thead>
+  <tr>
+    <th>Server</th>
+    <th>Tested</th>
+    <th>Works</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>EuroAion 4.6</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Aion Classic</td>
+    <td>❌</td>
+    <td>⌛</td>
+  </tr>
+  <tr>
+    <td>Aion Destiny</td>
+    <td>❌</td>
+    <td>⌛</td>
+  </tr>
+</tbody>
+</table>
 
 ## Getting Started🔥
 ### Requirements 
