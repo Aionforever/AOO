@@ -21,7 +21,7 @@ app.use(express.static("public"));
 const PORT = config.PORT; // Don't change the port unless it's already in used !
 server.listen(PORT);
 
-const filePath = config.gamePath
+const filePath = `${config.gamePath}/Chat.log`
 const PLAYER_NAME = config.playerName
 
 

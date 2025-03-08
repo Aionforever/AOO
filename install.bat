@@ -21,7 +21,7 @@ IF %ERRORLEVEL% NEQ 0 (
 echo Dependencies installed successfully!
 echo.
 
-set /p GAME_PATH="Enter the Chat.log path (e.g., C:/Euroaion/Chat.log): "
+set /p GAME_PATH="Enter the Game path (e.g., C:/Euroaion): "
 set /p PLAYER_NAME="Enter your character username: "
 
 echo { > config.json
@@ -32,6 +32,12 @@ echo } >> config.json
 
 echo Configuration saved to config.json!
 echo.
+
+echo Patching Game ! 
+set PATCH_FILE=public\class\client_strings_override.xml
+set DESTINATION=%GAME_PATH%/L10N/2_eng/data/Strings
+copy "%PATCH_FILE%" "%DESTINATION%"
+
 
 echo @echo off > start.bat
 echo node app.js >> start.bat

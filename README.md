@@ -45,7 +45,7 @@ if everything has worked properly, you should have a window that opens and asks 
 
 ```
 
-> Enter the Chat.log path (e.g., C:/Euroaion/Chat.log): 
+> Enter the game path (e.g., C:/Euroaion): 
 > Enter your character username: 
 
 ```
@@ -76,6 +76,38 @@ You can customize at your need with the `custom CSS` tab.
 > Click on `Refresh cache of current page` if you don't see any changes.
 
 ## Troubleshooting⚠️
+
+### 1.1 - Game path error
+
+```
+ENOENT: no such file or directory, stat 'C:\EuroAion\Chat.log'
+```
+* Make sure Chat.log is enabled. There are several ways to activate it :
+    * With [Aion RainMeter](https://rainy.ws/), Settings -> Main Settings -> Servers and Chatlog
+    * With the system.cfg file, add this line at the end of the file : `g_chatlog = "1"`
+    * With the [Shugo console](https://github.com/grenadium/ShugoConsole), simply activate the option in the ChatLog parameter
+* Make sure the path you enter uses `/` and not `\`.(~~~C:\EuroAion\Chat.log~~~)
+
+### 1.2 - Port error
+```
+Error: listen EADDRINUSE: address already in use :::8080
+```
+That mean there is something on your computer running on port `8080`. You can check what's using the port with the CMD.
+```sh
+# find what's listening on port 8080
+$ netstat -ano | findstr :8080
+```
+You should see a line that looks like this : 
+```nginx
+TCP    0.0.0.0:8080       0.0.0.0:0       LISTENING       12345
+```
+The last number (e.g. 12345) is the ID of the process (PID) using the port.
+
+```sh
+#Use this command to stop the process (replace 12345 with the PID found):
+taskkill /F /PID 12345
+```
+If several processes use port 8080, repeat the command for each one.
 ### Known issues 🚧
 - Skill showing several times ( e.g. Erosion, Dispell )
 - Heal/Buff skills not appearing on the timeline ( If the target is full life skills will not appear )
