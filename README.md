@@ -30,6 +30,16 @@
 * Works with all classes (there may be bugs with the healer class ).
 * Free and Open source ~~( pls help me, i suck at coding 🙃)~~
 
+**Server**|**Tested**|**Works**
+:-----:|:-----:|:-----:
+EuroAion 4.6|✅|✅
+Aion Classic|❌|⌛
+Aion Destiny|❌|⌛
+
+> ***⚠️WARNING⚠️*** <br>for the moment, the application only works for the English version
+
+
+
 ## Getting Started🔥
 ### Requirements 
 * ⚠️The latest version of [Node js](https://nodejs.org/en/download/current). **Download and install it before continuing**.
