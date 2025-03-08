@@ -12,16 +12,16 @@
 
 
 <div align='center'>
-    <a href="#Features">Features</a>•
-    <a href="#Installation">how to</a>•
-    <a href="#Troubleshooting">how to</a>•
-    <a href="">how to</a>•
+    <a href="#features">Features</a>•
+    <a href="#getting-started">Getting started</a>•
+    <a href="#troubleshooting">Troubleshooting</a>•
+    <a href="#contact">Contact</a>
 </div>
 
 ## Features📝
 
-<h3 align="center">Real time display 🕑  </h2>
-<img src="public/assets/showcase.gif" alt="AOO Showcase">
+<h3 align="center">Real time display 🕑</h2>
+<img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
 
 * Real-time display
 * Seamless integration with OBS
@@ -76,3 +76,6 @@ You can customize at your need with the `custom CSS` tab.
 > Click on `Refresh cache of current page` if you don't see any changes.
 
 ## Troubleshooting ⚠️
+
+## Contact 🐈
+Don't (jk)
