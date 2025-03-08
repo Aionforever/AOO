@@ -20,8 +20,8 @@
 
 ## Features📝
 
-<h3 align="center">Real time display 🕑</h3>
-<img src="public/assets/showcase.gif" alt="AOO Showcase" align="center" style="display: flex;justify-content: center;width: 100%;">
+<h3 align="start">Real time display 🕑</h3>
+<img src="public/assets/showcase.gif" alt="AOO Showcase" align="center">
 
 * Real-time display
 * Seamless integration with OBS
